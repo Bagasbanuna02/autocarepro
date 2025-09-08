@@ -1,0 +1,8 @@
+[dev]
+port = 3002
+
+[serve]
+port = 3003
+
+[serve.static]
+env = "BUN_PUBLIC_*"
